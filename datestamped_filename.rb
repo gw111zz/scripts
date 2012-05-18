@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby -w
 
-#
 # datestamped_filename - Renames files so that the creation date is in the filename
 # Copyright (C) 2012 gw111zz 
 # 

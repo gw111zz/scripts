@@ -18,6 +18,17 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
+# Usage example: 
+# --------------
+#
+# ruby datestamped_filename.rb -p FilenamePrefix- -o -Postfix- *.jpg
+#
+# -r to really rename
+# -p and -o parameters allow a '-' to be in the prefix or postfix 
+# therefore the example above when applied to a.jpg will result in:
+#  
+# FilenamePrefix-2012-05-01-Postfix-a.jpg
+#  
 
 require 'date'
 require 'fileutils'
